@@ -20,6 +20,7 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, .6);
     z-index: -1;
 }
 
@@ -42,3 +43,41 @@ nav .fa-bars{
     padding: 1rem 2rem;
 }
 /* taki padding na ikone menu ułatwia trafienie w nie przy klikaniu */
+
+
+/* HEADER */
+
+header{
+  position: relative;  
+  height: 60rem;
+  background-image: url(img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+header .btn{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+
+.header-text{
+    font-size: 2.2rem;
+}
+
+/* ABOUT US  */
+
+.about-boxes h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-icon{
+    font-size: 3rem;
+}
+
+#aboutus .btn-link{
+    font-size: 1.8rem;
+}
